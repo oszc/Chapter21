@@ -39,7 +39,6 @@ public class Pair {
     }
 
     public class PairValueNotEqualException extends RuntimeException {
-
         public PairValueNotEqualException() {
             super("Pair values not equal: "+Pair.this);
         }

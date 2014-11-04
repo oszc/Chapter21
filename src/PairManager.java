@@ -19,7 +19,6 @@ public abstract class PairManager {
 
     protected void store(Pair p){
         storage.add(p);
-
         try {
             TimeUnit.MILLISECONDS.sleep(50);
         } catch (InterruptedException e) {
