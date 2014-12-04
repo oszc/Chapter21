@@ -1,8 +1,4 @@
 import java.io.IOException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  * 11/23/14  9:07 PM
@@ -12,6 +8,7 @@ public class DeadlockingDiningPhilosophers {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
+        /*
         int ponder = 5;
         if(args.length > 0){
             ponder = Integer.parseInt(args[0]);
@@ -42,7 +39,7 @@ public class DeadlockingDiningPhilosophers {
         }
         exec.shutdownNow();
 
-
+*/
 
     }
 }
