@@ -3,6 +3,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 11/8/14  3:48 PM
  * Created by JustinZhang.
+ * ok
  */
 public class WaxOff implements Runnable{
 
